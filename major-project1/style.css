@@ -1,0 +1,616 @@
+
+body{
+	margin: 0px;
+	
+	background-color: black;
+background-image: linear-gradient(147deg, #000000 0%, black );
+	background-repeat: no-repeat;
+
+
+}
+#search-form i
+{
+
+}
+#logo{
+	/*margin-left: -30vw;*/
+	color: #eb34bd;
+
+}
+#logo h4
+{
+	display: inline;
+	text-align: center;
+	margin-top: -10px;
+	color: white;
+}
+#logo i{
+	font-size: 65px;
+
+}
+
+#search{
+
+background-color: #F0F0F0;
+
+
+}
+#search button
+{
+border:none;	
+/*border-radius: 30px;
+background-color: grey;*/
+}
+#search-form input
+{
+	background-color:  black;  /* fallback for old browsers */
+	border: none;
+}
+
+
+
+#profilepic img
+{
+	height: 15%;
+	width: 10%;
+	border-radius: 50%;
+	position: absolute;
+	right: 2%;
+	top: 3%;
+
+
+}
+header
+{
+	/*text-align: center;*/
+	height: 20vh;
+	width: 100%;
+}
+nav  #nav{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: baseline;
+	flex-wrap: wrap;
+
+
+}
+header  div
+{
+
+	color: white;
+	display: inline-block;
+	/*text-align: center;*/
+}
+main
+{
+	width: 65vw;
+	height: auto;
+	
+	display: inline-block;
+	color: white;
+}
+ #main{
+	width: 65vw;
+	height: 40vh;
+	margin-left: 5%;
+	/*background-color :#55efc4;*/
+	/*background-image :linear-gradient(315deg, #55efc4 0%, #000000 74%);*/
+	color: yellow;
+	display: inline-flex;
+	justify-content: space-around;
+	
+
+
+}
+.main-content
+{
+	width: 25%;
+	height: 35vh;
+	background-color: grey;
+	margin-top: 2.5%;
+
+
+
+}
+#album-1
+{
+	background-image: url("https://d1csarkz8obe9u.cloudfront.net/posterpreviews/red-mixtape-cd-cover-design-template-f15ab2d39593f86f44d9b5fa32b7c6a6.jpg?ts=1579663867");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#album2
+{
+	background-image: url("https://d1csarkz8obe9u.cloudfront.net/posterpreviews/red-skull-rap-hip-hop-cd-cover-template-design-667cc5c8d5538f9c086636663e1acba6_screen.jpg?ts=1561503600");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#album-3
+{
+	background-image: url("https://static.wixstatic.com/media/e7b453_534201485db9476a888f26db6accc120~mv2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.main-content:hover
+{
+	transition: all ease-in-out 1s;
+	transform: scale(2.5,1.5);
+
+}
+h4
+{
+	color: white;
+}
+aside
+{
+	width: 20%;
+	height: 65vh;
+	background-color: black;
+	background-image: linear-gradient(315deg, black 0%, black 74%);
+	vertical-align: top;
+	float: right;
+	display: inline-block;
+	margin-right: 5%;
+	color: white;
+
+}
+#aside-header
+{
+	
+	margin-top: 0%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+#aside-header select
+{
+	background-color: black;
+	/*background-image: linear-gradient(315deg, #e84393 0%, #000000 74%);*/
+	color: white;
+	border: none;
+}
+aside #content
+{
+	display: inline-block;
+}
+#Latest-Releases
+{
+	width: 65vw;
+	height: auto;
+	/*background-color: #000000;
+	background-image: linear-gradient(315deg, #000000 0%, #ffffff 74%);*/
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+
+
+}
+#Latest-Releases div
+{
+	width: 25vw;
+	height: 30vh;
+
+	margin: 2%;
+	border-radius: 10%;
+}
+#img1
+{
+	position: relative;
+	background-image: url(https://m.media-amazon.com/images/I/61+4GhFyzvL._SS500_.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	/*opacity: 0.1;*/
+}
+#img2
+{
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYpD-gko0-H7udphnNI_88Se9gDhyq9kuYXLtFW1ikX1berZ50xg&s);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#img3
+{
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNXEWnJcbYA3eSmGR1LL8h8qfcJ16paSzYPx46H3CnoaoPID0aOw&s);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#img4
+{
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJFI6QmMJPncSbfdlQQqqGldfGiPtUSghYOcAgMoAQg5HaSDVr&s);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#img1:hover 
+{
+	opacity: 0.8;
+}
+#img2:hover 
+{
+	opacity: 0.8;
+}
+#img3:hover 
+{
+	opacity: 0.8;
+}
+#img4:hover 
+{
+	opacity: 0.8;
+}
+#img1-text
+{
+	transition: visibility ease-in-out 0.1s;
+	color: white;
+	/*text-align: center;*/
+	visibility: hidden;
+	
+}
+
+#img1:hover #img1-text
+{
+	visibility: visible;
+}
+#img2:hover #img1-text
+{
+	visibility: visible;
+}
+#img3:hover #img1-text
+{
+	visibility: visible;
+}
+#img4:hover #img1-text
+{
+	visibility: visible;
+}
+/*hits*/
+#Hits
+{
+	width: 65vw;
+	height: auto;
+	/*background-color: #000000;
+	background-image: linear-gradient(315deg, #000000 0%, #ffffff 74%);*/
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+
+
+}
+#Hits div
+{
+	width: 25vw;
+	height: 30vh;
+
+	margin: 2%;
+	border-radius: 10%;
+}
+#img11
+{
+	position: relative;
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3axRNvJZEXsOeB7aip1omw4R_SF-hWXR1m-tsGf0ylb_9QPrw&s);
+	background-size: cover;
+	background-repeat: no-repeat;
+	/*opacity: 0.1;*/
+}
+#img22
+{
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRT0Y2Qnq8Ic0wmaiqnfKLJXpQqj9N5KO8fK7I1HsbU6jAtdOrB6w&s);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#img33
+{
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeHLb8tJ5g14etLvYrYilapVRxgIjvK4ffyvfibpy-dKnX4PF-&s);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#img44
+{
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqyLydr7bfdXgcFGjVW-IDUwDwFouGhfCYK_ji-kLm6TGOrY12-g&s);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#img11:hover 
+{
+	opacity: 0.8;
+}
+#img22:hover 
+{
+	opacity: 0.8;
+}
+#img33:hover 
+{
+	opacity: 0.8;
+}
+#img44:hover 
+{
+	opacity: 0.8;
+}
+#img11-text
+{
+	transition: visibility ease-in-out 0.1s;
+	color: white;
+	/*text-align: center;*/
+	visibility: hidden;
+	
+}
+
+#img11:hover #img11-text
+{
+	visibility: visible;
+}
+#img22:hover #img11-text
+{
+	visibility: visible;
+}
+#img33:hover #img11-text
+{
+	visibility: visible;
+}
+#img44:hover #img11-text
+{
+	visibility: visible;
+}
+#prefooter
+{
+
+	width: 100%;
+	height: 30vh;
+}
+ #infooter
+{
+	position: fixed;
+	bottom: 0px;
+
+	width: 100%;
+	
+	height: 20vh;
+	background-color: #182b3a;
+	background-image: linear-gradient(315deg, #182b3a 0%, #20a4f3 74%);
+	visibility: hidden;
+
+
+
+}
+#infooter2
+{
+	display: flex;
+	height: 10vh;
+	width: 100%;
+	justify-content: center;
+	justify-content: space-around;
+	align-items: center;
+}
+#infooter1
+{
+	height: 10vh;
+	width: 100%;
+	
+
+}
+
+
+h3,h4
+{
+	display: inline-block;
+}
+#infooter1-image
+{
+	height: 12vh;
+	width: 13%;
+	background-image: url(https://img.youtube.com/vi/dxtgBc0_79g/0.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: inline-block;
+
+
+}
+#infooter1-name
+{
+	display: inline-block;
+	width: 85%;
+	height: 10vh;
+	position: relative;
+	left: 33%;
+	bottom: 20%;
+	/*text-align-last: center;*/
+	font-size: 1.2rem;
+	font-family:  Comic Sans MS;
+
+
+
+}
+a
+{
+	color: white;
+}
+#infooter:target {
+	visibility: visible;
+}
+/*artist section*/
+#artist
+{
+	width: 140%;
+	height: 30vh;
+	/*flex-wrap: wrap;*/
+	display: flex;
+	/*justify-content: space-around;*/
+	align-items: center;
+	/*overflow-wrap: break-word;*/
+	overflow-y: hidden;
+	overflow-x: scroll;
+	background-color: 
+	background-color: #08AEEA;
+	/*background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);*/
+	margin-left: 5%;
+	/*display: inline-block;*/
+	
+
+
+}
+.artist-image
+{
+	min-width: 100px;
+	/*width: 20vw;*/
+	height: 20vh;
+	background-color: grey;
+	margin: 2%;
+	border-radius: 50%;
+}
+#a1
+{
+	background-image: url(https://caitlynmichelle.com/wp-content/uploads/2017/08/Justin-Timberlake-crunch-hair.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#a2
+{
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSngQQ0HZy4-HK_JdfMT_08wUV_XeoQWbCNMPWM-OxLV9ifI-e9jw&s);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#a3
+{
+	background-image: url(https://static.stereogum.com/uploads/2019/01/Tayla-1547151010-640x556.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#a4
+{
+	background-image: url(https://static01.nyt.com/images/2018/12/30/arts/30yearend-pop2/merlin_147857643_8e0c5c65-4549-4946-b51d-49425b9dcf24-articleLarge.jpg?quality=75&auto=webp&disable=upscale);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#a5
+{
+	background-image: url(https://secure.i.telegraph.co.uk/multimedia/archive/02350/taylorswift_2350004b.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#a6
+{
+	background-image: url(https://www.billboard.com/files/styles/article_main_image/public/media/Camila-Cabello-2017-zedd-concert-billboard-1548.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#a7
+{
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/c/cb/Gwen_Stefani_%E2%80%93_This_Is_What_the_Truth_Feels_Like_Tour_%28%22Rare%22%29.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#a8
+{
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/9/9b/180612_Harry_Styles_Live_On_Tour_in_Nashville.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+ #Visit
+{
+	transition: visibility ease-in-out 0.1s;
+	color: white;
+	/*text-align: center;*/
+	visibility: hidden;
+	text-align: center;
+	position: static;
+	top: -55%;
+	left: 5%;
+
+	
+}
+.artist-image:hover
+{
+	cursor: pointer;
+}
+.artist-image:hover #Visit
+{
+	visibility: visible;
+}
+::-webkit-scrollbar {
+  width: 10px;
+  display: none;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+
+
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  background-color: #52ACFF;
+background-image: linear-gradient(180deg, #52ACFF 25%, #FFE32C 100%);
+
+
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+@media screen and (min-width: 600px)
+{
+	
+.artist-image
+{
+	min-width: 15%;
+	/*width: 20vw;*/
+	height: 25vh;
+	background-color: grey;
+	margin: 2%;
+	border-radius: 50%;
+}
+
+	
+}
+#form
+{
+	margin-top: 20%;
+}
+
+input
+{
+	background: black;  /* fallback for old browsers */
+/*background: -webkit-linear-gradient(to right, #2a0845, #6441A5);   Chrome 10-25, Safari 5.1-6 
+background: linear-gradient(to right, #2a0845, #6441A5*/ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+		color: white;
+	border: none;
+	/*margin-top: 5%;*/
+}
+input::placeholder
+{
+	color: white;
+	opacity: 0.5;
+}
+input:focus
+{
+	border: none;
+	transition: all ease-in-out 1s;
+	transform: scale(1.5);
+}
+input[type=submit]:hover
+{
+	transition: all ease-in-out 1s;
+	transform: scale(1.5);
+}
+/*#search #input-s
+{
+	padding: 2px;
+background-color: black;
+	border:none;
+	margin-left: 0px;
+}*/
+button{
+	background-color: black;
+}
